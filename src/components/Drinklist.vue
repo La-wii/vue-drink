@@ -1,7 +1,12 @@
 <template>
   <div class="jumbotron">
       <div class="container-lg">
-          <div class="row">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-light">Scopri la selezione dei nostri drink</h2>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-3 mb-5" v-for="(drink, index) in drinks" :key="index">
                     <div class="card" style="width: 18rem;">
                         <img :src="drink.strDrinkThumb" alt="">
@@ -11,7 +16,7 @@
                         </div>
                     </div>
                 </div> 
-          </div>
+            </div>
       </div>
   </div>
 </template>
