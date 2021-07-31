@@ -1,6 +1,6 @@
 <template>
-  <div class="jumbotron">
-      <div class="container-lg">
+    <div class="jumbotron">
+        <div class="container-lg">
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="text-light">Scopri la selezione dei nostri drink</h2>
@@ -17,8 +17,8 @@
                     </div>
                 </div> 
             </div>
-      </div>
-  </div>
+        </div>
+    </div>
 </template>
 
 <script>
