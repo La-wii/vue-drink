@@ -7,13 +7,13 @@
             <!-- start row -->
             <div class="row">
                 <!-- start logo -->
-                <div class="col-2 pt-3">
-                    <h1>LOGO</h1>
+                <div class="col-2">
+                    <img src="/img/logo.jpg" alt="logo cheers" class="logo-header">
                 </div>
                 <!-- end logo -->
 
                 <!-- start link -->
-                <div class="col-10">  
+                <div class="col-10 pt-5">  
                     <ul>
                         <li v-for="(link, index) in link" :key="index" class="ps-5"> 
                             <a :href="link.url">{{link.text}}</a>
@@ -190,25 +190,29 @@ export default {
 
 <style scoped lang="scss">
     header{
+        background-color: #972939;
         nav{
             .container-lg{
                 .row{
-                    // .col-2{
-                        
-                    // }
+                    .col-2{
+                        .logo-header{
+                            height: 130px;
+                            object-fit: cover;
+                        }
+                    }
                     .col-10{
                         ul{
-                            
+                            // height: 110px;
+                            // line-height: 110px;
                             li{
                                 display: inline-block;
                                 list-style: none;
                                 font-size: 14px;   
                                     &:hover .dropdown{
-                                            color: black;
-                                            background-color: white;
+                                            color: white;
                                     }
                                     a{
-                                        color: black;
+                                        color: white;
                                         text-decoration: none;
                                     }
                                     ul{
@@ -217,7 +221,7 @@ export default {
                                             .dropdown{
                                                 color: transparent;
                                                 &:hover{
-                                                    color: black;
+                                                    color: white;
                                                     
                                                 }
                                             }                                           
