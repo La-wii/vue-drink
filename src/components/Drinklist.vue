@@ -2,13 +2,13 @@
     <div class="drinklist">
         <div class="container-lg">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="text-light">Scopri la selezione dei nostri drink</h2>
+                <div class="col-xs-12 fs-xs-5 text-center py-5">
+                    <h2 id="drink">Scopri la selezione dei nostri drink</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3 mb-5" v-for="(drink, index) in drinks" :key="index">
-                    <div class="card" style="width: 16rem;">
+            <div class="row text-sm-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-5" v-for="(drink, index) in drinks" :key="index">
+                    <div class="card mx-auto" style="width: 16rem;">
                         <img :src="drink.strDrinkThumb" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title">{{drink.strDrink}}</h5>
@@ -48,12 +48,12 @@ export default {
                     "idDrink": "16943"
                 },
                 {
-                    "strDrink": "A midsummernight dream",
+                    "strDrink": "Summernight dream",
                     "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/ysqvqp1461867292.jpg",
                     "idDrink": "15675"
                 },
                 {
-                    "strDrink": "A.D.M. (After Dinner Mint)",
+                    "strDrink": "A.D.M.",
                     "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/ruxuvp1472669600.jpg",
                     "idDrink": "14560"
                 },
@@ -203,6 +203,11 @@ export default {
                     "idDrink": "11243"
                 },
                 {
+                    "strDrink": "Gideon's Green Dinosaur",
+                    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/p5r0tr1503564636.jpg",
+                    "idDrink": "17002"
+                },
+                {
                     "strDrink": "Cosmopolitan Martini",
                     "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/upxxpq1439907580.jpg",
                     "idDrink": "14133"
@@ -236,11 +241,6 @@ export default {
                     "strDrink": "French Martini",
                     "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
                     "idDrink": "17213"
-                },
-                {
-                    "strDrink": "Gideon's Green Dinosaur",
-                    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/p5r0tr1503564636.jpg",
-                    "idDrink": "17002"
                 },
                 {
                     "strDrink": "Godchild",
@@ -459,8 +459,13 @@ export default {
         background: rgb(208,93,110);
         background: linear-gradient(180deg, rgba(208,93,110,1) 0%, rgba(207,87,169,1) 75%, rgba(205,80,228,1) 100%);
         .container-lg{
+            // .row{
+            //     .col-12{
+    
+            //     }
+            // }
             .row{
-                .col-3{
+                .col-xs-12{
                     .card{
                         
                         .btn-mgt{
@@ -468,7 +473,6 @@ export default {
                             color: white;
                             padding: 10px 20px; 
                             border: none;
-
                         }
                     }
                 }
