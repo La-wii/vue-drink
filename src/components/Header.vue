@@ -7,7 +7,7 @@
             <!-- start row -->
             <div class="row">
                 <!-- start logo -->
-                <div class="col-2">
+                <div class="col-2 col-md-2">
                     <img src="/img/logo.jpg" alt="logo cheers" class="logo-header">
                 </div>
                 <!-- end logo -->
@@ -15,7 +15,7 @@
                 <!-- start link -->
                 <div class="col-10 pt-5">  
                     <ul>
-                        <li v-for="(link, index) in link" :key="index" class="ps-5"> 
+                        <li v-for="(link, index) in link" :key="index" class="px-5"> 
                             <a :href="link.url">{{link.text}}</a>
                             <div class="col-2">
                                 <ul v-if="link.subitems"> 
@@ -70,7 +70,7 @@ export default {
         },
         {
           text: 'I nostri drink',
-          url:'#',
+          url:'#drink',
           current: false,
             subitems:[
             {
@@ -115,52 +115,6 @@ export default {
         },
         {
           text: 'Contatti',
-          url:'#',
-          current: false,
-          subitems:[
-            {
-            text: 'Link',
-            url:'#',
-            current: false,
-          
-            },
-            {
-            text: 'Link',
-            url:'#',
-            current: false
-            },
-            {
-            text: 'Link',
-            url:'#',
-            current: false
-            }              
-            ]
-        },
-        {
-          text: 'Blog',
-          url:'#',
-          current: false,
-          subitems:[
-            {
-            text: 'Link',
-            url:'#',
-            current: false,
-          
-            },
-            {
-            text: 'Link',
-            url:'#',
-            current: false
-            },
-            {
-            text: 'Link',
-            url:'#',
-            current: false
-            }              
-            ]
-        },
-        {
-          text: 'Shop',
           url:'#',
           current: false,
           subitems:[
