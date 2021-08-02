@@ -22,7 +22,7 @@
                                     <li v-for="(page, index) in link.subitems" :key="index">
                                         <a class="dropdown" :href="page.url">
                                             {{page.text}}
-                                        </a>
+                                        </a>    
                                     </li>
                                 </ul>                            
                             </div>    
