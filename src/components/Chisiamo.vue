@@ -79,7 +79,7 @@ export default {
             personale: [
                 {
                     "nome": "Fra",
-                    "mansione": "Barman",
+                    "mansione": "Barman - Alchimista",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
                     "img": "/img/fra.png",
                 },
@@ -91,7 +91,7 @@ export default {
                 },
                 {
                     "nome": "Nicolò",
-                    "mansione": "Mixologist",
+                    "mansione": "Animazione",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
                     "img": "/img/nico.png",
                 },
