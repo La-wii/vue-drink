@@ -33,12 +33,6 @@
                             <br>
                             <br>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!
-                            <br>
-                            <br>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!
-                            <br>
-                            <br>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!
                         </strong>
                     </p>
                 </div>
@@ -93,7 +87,7 @@ export default {
                     "nome": "Matteo",
                     "mansione": "Degustatore seriale",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
-                    "img": "/img/teo.png",
+                    "img": "/img/Matteo.png",
                 },
                 {
                     "nome": "Nicolò",
