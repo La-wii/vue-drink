@@ -42,7 +42,7 @@
                     <VueSlickCarousel v-bind="settings" :slidesToScroll="2" :slidesToShow="2" :vertical="true" :swipeToSlide="true">
                         <div class="box-card" v-for="(persona, index) in personale" :key="index">
                             <div class="card" style="max-width: 540px;">
-                                <img :src="persona.img" alt=""> 
+                                <img :src="persona.img" :alt="persona.alt"> 
                                 <div class="card-body text-center">
                                     <h5 class="card-title">
                                         <strong>
@@ -82,24 +82,28 @@ export default {
                     "mansione": "Barman - Alchimista",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
                     "img": "/img/fra.png",
+                    "alt": "Barman Cheers",
                 },
                 {
                     "nome": "Matteo",
                     "mansione": "Degustatore seriale",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
                     "img": "/img/Matteo.png",
+                    "alt": "Degustatore Cheers",
                 },
                 {
                     "nome": "Nicolò",
                     "mansione": "Animazione",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
                     "img": "/img/nico.png",
+                    "alt": "Animazione Cheers",
                 },
                 {
                     "nome": "Bob",
                     "mansione": "Buttafuori",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
                     "img": "/img/bob.png",
+                    "alt": "Sicurezza Cheers",
                 }
             ]
         }
