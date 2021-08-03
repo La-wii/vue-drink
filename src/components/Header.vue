@@ -114,6 +114,29 @@ export default {
             ]
         },
         {
+          text: 'DrinkRandom',
+          url:'#drinkrandom',
+          current: false,
+          subitems:[
+            {
+            text: 'Link',
+            url:'#',
+            current: false,
+          
+            },
+            {
+            text: 'Link',
+            url:'#',
+            current: false
+            },
+            {
+            text: 'Link',
+            url:'#',
+            current: false
+            }              
+            ]
+        },
+        {
           text: 'Contatti',
           url:'#',
           current: false,
