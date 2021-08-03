@@ -92,7 +92,7 @@ export default {
         },
         {
           text: 'Chi siamo',
-          url:'#',
+          url:'#chisiamo',
           current: false,
           subitems:[
             {
