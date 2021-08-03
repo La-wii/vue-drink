@@ -455,9 +455,8 @@ export default {
 
 <style scoped lang="scss">
     .drinklist{
-        background: linear-gradient(180deg, rgba(151,41,57,1) 0%, rgba(154,57,71,1) 35%, rgba(208,93,110,1) 100%);
-        // background: rgb(208,93,110);
-        // background: linear-gradient(180deg, rgba(208,93,110,1) 0%, rgba(207,87,169,1) 75%, rgba(205,80,228,1) 100%);
+        background: rgb(151,41,57);
+        background: linear-gradient(180deg, rgba(151,41,57,1) 0%, rgba(207,87,169,1) 50%, rgba(226,136,214,1) 100%);
         .container-lg{
             // .row{
             //     .col-12{
