@@ -4,6 +4,7 @@
     <Header/>
     <Jumbotron/>
     <Drinklist/>
+    <Chisiamo/>
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
@@ -14,6 +15,7 @@
 import Header from "./components/Header.vue";
 import Jumbotron from "./components/Jumbotron.vue";
 import Drinklist from "./components/Drinklist.vue";
+import Chisiamo from "./components/Chisiamo.vue";
 
 export default {
   name: "App",
@@ -21,6 +23,7 @@ export default {
     Header,
     Jumbotron,
     Drinklist,
+    Chisiamo,
   },
 };
 </script>
