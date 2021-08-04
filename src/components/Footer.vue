@@ -1,8 +1,8 @@
 <template>
-  <footer class="py-5">
+  <footer class="py-5" id="contatti">
     <div class="container-lg py-5">
       <div class="row">
-        <div class="col-xs-12 col-md-4" v-for="(contatto, index) in contatti " :key="index">
+        <div class="col-xs-12 col-md-4 text-sm-center text-md-center" v-for="(contatto, index) in contatti " :key="index">
           <h5>Contatti:</h5>
           <p>
             {{contatto.societa}}
@@ -13,7 +13,7 @@
           </p>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-md-4 text-sm-center text-md-center">
           <h5>Link utili:</h5>
           <ul>
             <li v-for="(link, index) in links" :key="index">
@@ -22,7 +22,7 @@
           </ul>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-md-4 text-sm-center text-md-center">
           <h5>Seguici sui social</h5>
           <a href="#">
             <i class="fab fa-twitter-square"></i>

@@ -138,7 +138,7 @@ export default {
         },
         {
           text: 'Contatti',
-          url:'#',
+          url:'#contatti',
           current: false,
           subitems:[
             {
