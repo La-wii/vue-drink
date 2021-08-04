@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-5" id="contatti">
+  <footer class="py-5 text-center" id="contatti">
     <div class="container-lg py-5">
       <div class="row">
         <div class="col-xs-12 col-md-4 text-sm-center text-md-center" v-for="(contatto, index) in contatti " :key="index">
@@ -88,9 +88,20 @@ export default {
       .row{
         .col-xs-12{
           color: white;
-          a{
-            color: white;
+          ul{
+            li{
+              list-style: none;
+              a{
+                color: white;
+              }
+            }
           }
+        }
+        .col-xs-12{
+          color: white;
+            a{
+            color: white;
+            }
         }
       }
     }
