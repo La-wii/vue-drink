@@ -6,8 +6,7 @@
     <Drinklist/>
     <Chisiamo/>
     <Drinkrandom/>
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <Footer/>
   </div>
 </template>
 
@@ -18,6 +17,7 @@ import Jumbotron from "./components/Jumbotron.vue";
 import Drinklist from "./components/Drinklist.vue";
 import Chisiamo from "./components/Chisiamo.vue";
 import Drinkrandom from "./components/Drinkrandom.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -27,6 +27,7 @@ export default {
     Drinklist,
     Chisiamo,
     Drinkrandom,
+    Footer,
   },
 };
 </script>
