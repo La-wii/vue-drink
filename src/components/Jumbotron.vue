@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron">
+    <div class="jumbotron d-none d-sm-none d-md-none d-lg-block">
         <div class="container-lg">
             <div class="row">
                 <div class="col-12">
