@@ -93,7 +93,7 @@ export default {
                 },
                 {
                     "nome": "Nicolò",
-                    "mansione": "Animazione",
+                    "mansione": "Animatore",
                     "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!",
                     "img": "/img/nico.png",
                     "alt": "Animazione Cheers",
