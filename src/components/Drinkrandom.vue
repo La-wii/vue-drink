@@ -3,11 +3,11 @@
         <div class="container-lg pt-5">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2>Un drink ad ogni refresh</h2>
+                    <h2 id="drinkrandom" class="text-center py-5">Un drink ad ogni refresh</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-4" id="drinkrandom">
+                <div class="col-xs-12 col-md-4">
                     <div v-for="(element, index) in drink" :key="index" class="card mb-3 text-center" style="max-width: 540px;"> 
                         <img :src="element.strDrinkThumb" class="img-fluid rounded-start" alt="...">                                
                         <div class="card-body">
@@ -65,7 +65,6 @@
                             <p class="card-text">
                                 {{element.strInstructionsIT}}
                             </p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +127,6 @@
                             <p class="card-text">
                                 {{element.strInstructionsIT}}
                             </p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
@@ -191,7 +189,6 @@
                             <p class="card-text">
                                 {{element.strInstructionsIT}}
                             </p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
