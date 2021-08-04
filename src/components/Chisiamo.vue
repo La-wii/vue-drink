@@ -8,7 +8,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-6 p-5">
-                    <h3 class="pb-3">Il nostro Staff</h3>
+                    <h3 class="pb-3 text-xs-center text-sm-center text-md-center">Il nostro Staff</h3>
                     <p>
                         <strong>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores officia qui. Iusto animi aliquam adipisci itaque veritatis nisi vel, dolorum hic harum. Pariatur vitae iure iusto architecto fuga. Nobis!
