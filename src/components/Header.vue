@@ -7,13 +7,13 @@
             <!-- start row -->
             <div class="row">
                 <!-- start logo -->
-                <div class="col-2 col-md-2">
+                <div class="col-xs-12 col-md-2">
                     <img src="/img/logo.jpg" alt="logo cheers" class="logo-header">
                 </div>
                 <!-- end logo -->
 
                 <!-- start link -->
-                <div class="col-10 pt-5">  
+                <div class="col-xs-12 col-md-10 pt-5 mx-auto">  
                     <ul>
                         <li v-for="(link, index) in link" :key="index" class="px-5"> 
                             <a :href="link.url">{{link.text}}</a>
@@ -171,13 +171,13 @@ export default {
         nav{
             .container-lg{
                 .row{
-                    .col-2{
+                    .col-xs-12{
                         .logo-header{
                             height: 130px;
                             object-fit: cover;
                         }
                     }
-                    .col-10{
+                    .col-xs-12{
                         ul{
                             // height: 110px;
                             // line-height: 110px;
