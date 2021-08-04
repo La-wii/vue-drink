@@ -8,7 +8,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-4">
-                    <div v-for="(element, index) in drink" :key="index" class="card mb-3 text-center" style="max-width: 540px;"> 
+                    <div v-for="(element, index) in drink" :key="index" class="card mb-3 text-center mx-auto" style="max-width: 540px;"> 
                         <img :src="element.strDrinkThumb" class="img-fluid rounded-start" alt="...">                                
                         <div class="card-body">
                             <h4 class="card-title pb-3">
@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="col-xs-12 col-md-4">
-                    <div v-for="(element, index) in drink2" :key="index" class="card mb-3 text-center" style="max-width: 540px;"> 
+                    <div v-for="(element, index) in drink2" :key="index" class="card mb-3 text-center mx-auto" style="max-width: 540px;"> 
                         <img :src="element.strDrinkThumb" class="img-fluid rounded-start" alt="...">                                
                         <div class="card-body">
                             <h4 class="card-title pb-3">
@@ -132,7 +132,7 @@
                 </div>
 
                 <div class="col-xs-12 col-md-4">
-                    <div v-for="(element, index) in drink3" :key="index" class="card mb-3 text-center" style="max-width: 540px;"> 
+                    <div v-for="(element, index) in drink3" :key="index" class="card mb-3 text-center mx-auto" style="max-width: 540px;"> 
                         <img :src="element.strDrinkThumb" class="img-fluid rounded-start" alt="...">                                
                         <div class="card-body">
                             <h4 class="card-title pb-3">
