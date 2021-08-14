@@ -1,13 +1,18 @@
 <template>
     <div class="drinklist">
         <div class="container-lg">
+            <div class="search py-5">
+                <div class="row">
+                    <input type="text" v-model="search" placeholder="cerca il tuo drink">
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-12 fs-xs-5 text-center py-5">
                     <h2 id="drink">Scopri la selezione dei nostri drink</h2>
                 </div>
             </div>
             <div class="row text-sm-center">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-5" v-for="(drink, index) in drinks" :key="index">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-5" v-for="(drink, index) in filteredDrink" :key="index">
                     <div class="card mx-auto" style="width: 16rem;">
                         <img :src="drink.strDrinkThumb" alt="">
                         <div class="card-body text-center">
@@ -26,6 +31,7 @@ export default {
     name: "Drinklist",
     data(){
         return{
+            search: '',
             drinks: [
                 {
                     "strDrink": "155 Belmont",
@@ -449,7 +455,17 @@ export default {
                 }
             ]
         }
+    },
+    computed: {
+        filteredDrink: function(){
+            return this.drinks.filter((drink) => {
+                // return drink.strDrink.match(this.search)
+                return drink.strDrink.toLowerCase().includes(this.search.toLowerCase())
+                }
+            ) 
+        }
     }
+
 }
 </script>
 
