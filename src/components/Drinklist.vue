@@ -482,12 +482,19 @@ export default {
             .row{
                 .col-xs-12{
                     .card{
-                        
+                        border: none;
+                        box-shadow: 0px 0px 18px 14px rgb(179, 33, 130);
+                            &:hover{
+                                box-shadow: 10px 5px 10px 4px rgb(100, 26, 134);
+                            }
                         .btn-mgt{
                             background: rgb(151,41,57);
                             color: white;
                             padding: 10px 20px; 
                             border: none;
+                            &:hover{
+                                background: rgba(66, 30, 150, 0.89);
+                            }
                         }
                     }
                 }
